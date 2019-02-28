@@ -16,6 +16,10 @@
 
 }
 
+.card-body, h5{
+	width: 100%;
+}
+
 html {
 	font-size: 18px;
 }	
@@ -88,6 +92,10 @@ button{
 
 .hidden{
 	display: none;
+}
+
+.card {
+	width: 20%;
 }
 
 #card-1 {
