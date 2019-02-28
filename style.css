@@ -1,0 +1,100 @@
+html {
+	font-size: 18px;
+}	
+html, body {
+	margin: 0 auto;
+	height: 100%;
+/*	font-family: ClementePDaa-Hairline;
+	color: #696969;*/
+}
+
+.clear {
+	clear: both;
+}
+
+body {
+	background-image: url("images/annie-spratt-752789-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100%;
+}
+
+h1 {
+	width: 50%;
+	margin-top: 100px;
+	margin-left: 40%;
+	height: 200px;
+	font-size: 500%;
+	text-align: right;
+	color: white;
+}
+
+#content {
+	background-color: white;
+	margin-top: 25%;
+	padding-bottom: 18px;
+	position: relative;
+
+}
+
+#intro{
+	height: 10em;
+	position: relative;
+	text-align: center;
+}
+
+#intro p{
+	font-size: 1.5em;
+	margin: 0;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+
+#form-background{
+	background-color: #e1e4e8;
+}
+
+#form {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	padding: 10px 0;
+	margin-bottom: 20px;
+}
+
+#message{
+	text-align: center;
+}
+
+.hidden{
+	display: none;
+}
+
+#container-1 {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+#card-1 {
+	order: 1;
+}
+#card-2 {
+	order: 2;
+}
+#card-3 {
+	order: 3;
+}
+#card-4 {
+	order: 4;
+}
+
+#footer {
+	background-color: #e1e4e8;
+}
