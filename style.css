@@ -1,3 +1,21 @@
+@media(min-width: 768px){
+
+	#form {
+		display: flex;
+		justify-content: space-around;
+		text-align: center;
+		padding: 10px 0;
+		margin-bottom: 20px;
+	}
+
+	#container-1 {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	}
+
+}
+
 html {
 	font-size: 18px;
 }	
@@ -59,13 +77,9 @@ h1 {
 	background-color: #e1e4e8;
 }
 
-#form {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	text-align: center;
-	padding: 10px 0;
-	margin-bottom: 20px;
+button{
+	margin-top: 20px;
+	width: 150px;
 }
 
 #message{
@@ -74,12 +88,6 @@ h1 {
 
 .hidden{
 	display: none;
-}
-
-#container-1 {
-	display: flex;
-	justify-content: space-around;
-	align-items: flex-start;
 }
 
 #card-1 {
