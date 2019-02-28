@@ -78,6 +78,7 @@ $(document).ready(function(){
 		} else {
 			var tarifa = pricesTable[i][j];
 		//Loop pelo array de planos para calculo de precos
+			
 			for(var i = 0; i < plans.length; i++){
 				$( "#full-price-" + (i+1) ).text( numberToReal(plans[i].preco + Math.max(min - plans[i].duracao, 0)*tarifa*plans[i].txMin) );
 				$( "#fee-" + (i+1) ).text( numberToReal(plans[i].preco) );
