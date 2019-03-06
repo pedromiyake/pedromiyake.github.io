@@ -52,7 +52,7 @@
 }
 
 @media screen and (max-width: 767px) {
-	body {
+	h1, #content {
 		overflow-x:hidden;	
 	}
 
