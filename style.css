@@ -80,13 +80,12 @@
 	button{
 		margin-right: 500px;
 		width: 70%;
-	}	
+	}
 
+	.card {
+		margin: 15px;
+	}
 
-}
-
-.card {
-margin: 15px;
 }
 
 html, body {
