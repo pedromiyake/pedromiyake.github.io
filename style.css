@@ -14,6 +14,22 @@
 		color: white;
 	}
 
+	#intro{
+		height: 10em;
+		position: relative;
+		text-align: center;
+	}
+
+	#intro p{
+		font-size: 1.5em;
+		margin: 0;
+		position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    margin-right: -50%;
+	    transform: translate(-50%, -50%)
+	}
+
 	#form {
 		display: flex;
 		justify-content: space-around;
@@ -39,6 +55,22 @@
 		text-align: right;
 		color: white;
 	}
+
+	#intro{
+		height: 10em;
+		position: relative;
+		text-align: center;
+	}
+
+	#intro p{
+		font-size: 100%;
+		margin: 0;
+		position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    margin-right: -50%;
+	    transform: translate(-50%, -50%)
+	}	
 }
 
 html, body {
@@ -69,22 +101,6 @@ body {
 	padding-bottom: 18px;
 	position: relative;
 
-}
-
-#intro{
-	height: 10em;
-	position: relative;
-	text-align: center;
-}
-
-#intro p{
-	font-size: 1.5em;
-	margin: 0;
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
 }
 
 #form-background{
