@@ -1,3 +1,7 @@
+@-ms-viewport{
+  width: device-width;
+}
+
 @media screen and (min-width: 768px){
 
 	h1 {
