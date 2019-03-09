@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>card test</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">	
+	<style type="text/css">
+		// Bootstrap 4 breakpoints
+		$grid-breakpoints: (
+		    xs: 0,
+		    sm: 576px,
+		    md: 768px,
+		    lg: 992px,
+		    xl: 1200px
+		) !default;
+
+		// number of cards per line for each breakpoint
+		$cards-per-line: (
+		    xs: 1,
+		    sm: 2,
+		    md: 3,
+		    lg: 4,
+		    xl: 5
+		);
+
+		.card-deck {
+		  display: grid;
+		 }
+
+		@each $name, $breakpoint in $grid-breakpoints {
+			@media (min-width: $breakpoint) {
+				.card-deck {
+					grid-template-columns: repeat(map-get($cards-per-line, $name), 1fr);
+				}
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="card-deck">
+			<div class="card my-3">
+				<img src="http://placehold.it/560x560" class="card-img-top">
+				<div class="card-body">
+					<h4 class="card-title">Title</h4>
+					<p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+					<button class="btn btn-primary" type="button">Button</button>
+				</div>
+			</div>
+			<div class="card my-3">
+				<img src="http://placehold.it/560x560" class="card-img-top">
+				<div class="card-body">
+					<h4 class="card-title">Title</h4>
+					<p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+					<button class="btn btn-primary" type="button">Button</button>
+				</div>
+			</div>
+			<div class="card my-3">
+				<img src="http://placehold.it/560x560" class="card-img-top">
+				<div class="card-body">
+					<h4 class="card-title">Title</h4>
+					<p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+					<button class="btn btn-primary" type="button">Button</button>
+				</div>
+			</div>
+			<div class="card my-3">
+				<img src="http://placehold.it/560x560" class="card-img-top">
+				<div class="card-body">
+					<h4 class="card-title">Title</h4>
+					<p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+					<button class="btn btn-primary" type="button">Button</button>
+				</div>
+			</div>
+			<div class="card my-3">
+				<img src="http://placehold.it/560x560" class="card-img-top">
+				<div class="card-body">
+					<h4 class="card-title">Title</h4>
+					<p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+					<button class="btn btn-primary" type="button">Button</button>
+				</div>
+			</div>
+			<div class="card my-3">
+				<img src="http://placehold.it/560x560" class="card-img-top">
+				<div class="card-body">
+					<h4 class="card-title">Title</h4>
+					<p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+					<button class="btn btn-primary" type="button">Button</button>
+				</div>
+			</div>
+			<div class="card my-3">
+				<img src="http://placehold.it/560x560" class="card-img-top">
+				<div class="card-body">
+					<h4 class="card-title">Title</h4>
+					<p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+					<button class="btn btn-primary" type="button">Button</button>
+				</div>
+			</div>
+			<div class="card my-3">
+				<img src="http://placehold.it/560x560" class="card-img-top">
+				<div class="card-body">
+					<h4 class="card-title">Title</h4>
+					<p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+					<button class="btn btn-primary" type="button">Button</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>	
+</body>
+</html>

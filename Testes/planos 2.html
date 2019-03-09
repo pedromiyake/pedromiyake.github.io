@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Telzir</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style3.css">
+</head>
+<body>
+	<header>
+		<h1>Simule já o seu consumo e garanta o melhor pacote para voce!</h1>
+	</header>
+	<main id="content">
+		<section id="intro">
+			<p class="container">Insira o seu DDD (origem das ligacoes), o DDD de quem voce vai ligar (destino) e quantos minutos deseja falar!</p>
+		</section>
+		<section id="form-background">
+			<form id="form" class="container">
+				<div class="form-group">
+					<label for="origin">Origem</label>
+					<select id="origin" class="form-control">
+						<option hidden disabled selected value>DDD</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="destination">Destino</label>
+					<select id="destination" class="form-control">
+						<option hidden disabled selected value>DDD</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="minutes">Quantos minutos</label>
+					<input id="minutes" class="form-control" type="number" min="0">
+				</div>
+				<button id="calculate" class="btn btn-primary mb-2" type="button">Calcular despesa</button>
+			</form>
+		</section>
+		<section>
+			<div id="message" class="hidden" role="alert"></div>
+			<div id="container-1" class="container">
+				<div id="card-1" class="card">
+					<h5 class="card-header">Plano base</h5>
+					<div class="card-body">
+						<h5 class="card-title"><span id="full-price-1">$ --</span> total</h5>
+						<p class="card-text"><span id="fee-1">$ --</span> da assinatura</p>
+						<p class="card-text"><span id="over-1">$ --</span> de excedente</p>
+						<a href="#" class="btn btn-primary">Adquira este plano</a>
+					</div>
+				</div>
+				<div id="card-2" class="card">
+					<h5 class="card-header">Fale Mais 30</h5>
+					<div class="card-body">
+						<h5 class="card-title"><span id="full-price-2">$ --</span> total</h5>
+						<p class="card-text"><span id="fee-2">$ --</span> da assinatura</p>
+						<p class="card-text"><span id="over-2">$ --</span> de excedente</p>
+						<a href="#" class="btn btn-primary">Adquira este plano</a>
+					</div>
+				</div>
+				<div id="card-3" class="card">
+					<h5 class="card-header">Fale Mais 60</h5>
+					<div class="card-body">
+						<h5 class="card-title"><span id="full-price-3">$ --</span> total</h5>
+						<p class="card-text"><span id="fee-3">$ --</span> da assinatura</p>
+						<p class="card-text"><span id="over-3">$ --</span> de excedente</p>
+						<a href="#" class="btn btn-primary">Adquira este plano</a>
+					</div>
+				</div>
+				<div id="card-4" class="card">
+					<h5 class="card-header">Fale Mais 120</h5>
+					<div class="card-body">
+						<h5 class="card-title"><span id="full-price-4">$ --</span> total</h5>
+						<p class="card-text"><span id="fee-4">$ --</span> da assinatura</p>
+						<p class="card-text"><span id="over-4">$ --</span> de excedente</p>
+						<a href="#" class="btn btn-primary">Adquira este plano</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer id="footer" class="page-footer font-small">
+		<div class="footer-copyright text-center py-3">© 2019 Copyright:
+			<a href="#"> telzir.com</a>
+		</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="variaveis.js"></script>
+	<script src="funcoes.js"></script>
+	<script src="planos2.js"></script>
+</body>
+</html>

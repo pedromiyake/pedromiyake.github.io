@@ -20,16 +20,16 @@
 		margin-top: 15%;
 	}
 
-	#form {
+/*	#form {
 		display: flex;
 		justify-content: space-around;
 		text-align: center;
-	}
+	}*/
 
-	button {
+/*	button {
 		margin-top: 20px;
 		width: 150px;
-	}	
+	}*/	
 
 }
 
@@ -56,10 +56,10 @@
 		font-size: 1.3em;
 	}
 
-	button {
+/*	button {
 		margin-right: 500px;
 		width: 50%;
-	}
+	}*/
 
 }
 
@@ -84,10 +84,10 @@
 		font-size: 1.1em;
 	}
 
-	button {
+/*	button {
 		margin-right: 500px;
 		width: 70%;
-	}
+	}*/
 
 }
 
@@ -139,11 +139,16 @@ body {
 
 #form-background {
 	background-color: #e1e4e8;
-	/*padding: 10px;*/
+	margin-bottom: 15px;
+	padding-bottom: 10px;
 }
 
-#form {
+/*#form {
 	margin-bottom: 20px;
+}*/
+
+#calculate {
+	height: 50%;
 }
 
 #message {
@@ -159,12 +164,12 @@ body {
 	margin-bottom: 15px;
 	padding: 0;
 	text-align: center; 
+	text-decoration: none !important;
 }
 
 .best-rate {
 	color: #013220;
 	background-color: #f5ffea;
-	text-decoration: none !important;
 }
 
 #footer {

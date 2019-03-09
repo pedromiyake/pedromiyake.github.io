@@ -2,7 +2,7 @@
 	width: device-width;
 }
 
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 768px) {
 
 	h1 {
 		width: 50%;
@@ -16,14 +16,11 @@
 		font-size: 1.5em;
 	}
 
-	#content {
-		margin-top: 15%;
-	}
-
 	#form {
 		display: flex;
 		justify-content: space-around;
 		text-align: center;
+		margin-bottom: 20px;
 	}
 
 	button {
@@ -31,39 +28,15 @@
 		width: 150px;
 	}	
 
-}
-
-@media screen and (max-width: 979px) {
-	
-	h1, #content {
-		overflow-x:hidden;	
-	}
-
-	h1 {
-	 	background-color: rgba(0, 0, 0, 0.2);
-		width: 60%;
-		margin-top: 55px;
-		margin-left: 30%;
-		font-size: 350%;
-		text-align: right;
-	}
-
-	#content {
-		margin-top: 10%;
-	}
-
-	#intro p {
-		font-size: 1.3em;
-	}
-
-	button {
-		margin-right: 500px;
-		width: 50%;
+	#container-1 {
+		display: flex;
+		justify-content: space-around;
+		align-items: flex-start;
 	}
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
 	
 	h1, #content {
 		overflow-x:hidden;	
@@ -76,17 +49,17 @@
 		text-align: right;
 	}
 
-	#content {
-		margin-top: 10%;
-	}
-
 	#intro p {
-		font-size: 1.1em;
+		font-size: 105%;
 	}
 
 	button {
 		margin-right: 500px;
 		width: 70%;
+	}
+
+	.card {
+		margin: 15px;
 	}
 
 }
@@ -96,13 +69,12 @@ html, body {
 	height: 100%;
 	width: 100%
 	font-size: 18px;
+	overflow-x:hidden;
 }
 
-h1 {
-	background-color: rgba(0, 0, 0, 0.2);	
+ h1 {
  	color: white;
- 	padding: 0px;
-	overflow-y:hidden;
+ 	background-color: rgba(0, 0, 0, 0.2);
  }
 	
 body {
@@ -117,6 +89,7 @@ body {
 
 #content {
 	background-color: white;
+	margin-top: 25%;
 	padding-bottom: 18px;
 	position: relative;
 
@@ -142,13 +115,8 @@ body {
 	/*padding: 10px;*/
 }
 
-#form {
-	margin-bottom: 20px;
-}
-
 #message {
 	text-align: center;
-	margin-top: 10px;
 }
 
 .hidden {
@@ -156,15 +124,11 @@ body {
 }
 
 .card {
-	margin-bottom: 15px;
-	padding: 0;
-	text-align: center; 
+	text-align: center;
 }
 
-.best-rate {
-	color: #013220;
-	background-color: #f5ffea;
-	text-decoration: none !important;
+.card-body, h5 {
+	width: 100%;
 }
 
 #footer {

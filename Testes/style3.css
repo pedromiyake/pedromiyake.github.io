@@ -17,19 +17,26 @@
 	}
 
 	#content {
-		margin-top: 15%;
+		margin-top: 25%;
 	}
 
 	#form {
 		display: flex;
 		justify-content: space-around;
 		text-align: center;
+		margin-bottom: 20px;
 	}
 
 	button {
 		margin-top: 20px;
 		width: 150px;
 	}	
+
+	#container-1 {
+		display: flex;
+		justify-content: space-around;
+		align-items: flex-start;
+	}
 
 }
 
@@ -40,7 +47,6 @@
 	}
 
 	h1 {
-	 	background-color: rgba(0, 0, 0, 0.2);
 		width: 60%;
 		margin-top: 55px;
 		margin-left: 30%;
@@ -58,7 +64,11 @@
 
 	button {
 		margin-right: 500px;
-		width: 50%;
+		width: 70%;
+	}
+
+	.card {
+		margin: 15px;
 	}
 
 }
@@ -81,12 +91,16 @@
 	}
 
 	#intro p {
-		font-size: 1.1em;
+		font-size: 105%;
 	}
 
 	button {
 		margin-right: 500px;
 		width: 70%;
+	}
+
+	.card {
+		margin: 15px;
 	}
 
 }
@@ -96,13 +110,13 @@ html, body {
 	height: 100%;
 	width: 100%
 	font-size: 18px;
+	overflow-x:hidden;
 }
 
-h1 {
-	background-color: rgba(0, 0, 0, 0.2);	
+ h1 {
  	color: white;
+ 	background-color: rgba(0, 0, 0, 0.2);
  	padding: 0px;
-	overflow-y:hidden;
  }
 	
 body {
@@ -142,10 +156,6 @@ body {
 	/*padding: 10px;*/
 }
 
-#form {
-	margin-bottom: 20px;
-}
-
 #message {
 	text-align: center;
 	margin-top: 10px;
@@ -156,15 +166,11 @@ body {
 }
 
 .card {
-	margin-bottom: 15px;
-	padding: 0;
-	text-align: center; 
+	text-align: center;
 }
 
-.best-rate {
-	color: #013220;
-	background-color: #f5ffea;
-	text-decoration: none !important;
+.card-body, h5 {
+	width: 100%;
 }
 
 #footer {
